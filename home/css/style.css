@@ -179,11 +179,12 @@ canvas {
 .footer{
   position: fixed;
   top: 95vh;
-  height: 5vh;
+  height: 4vh;
   background-color: black;
   width: 100%;
   font-size: 20px;
   color: white;
+  margin-top: 6px;
 }
 
 @font-face{

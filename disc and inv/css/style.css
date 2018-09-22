@@ -1,9 +1,12 @@
-html, body {
+ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
-
+html{
+  background-color: black;
+  margin-top: -25px;
+}
 .responsive {
     width: 100%;
     height: auto;
@@ -299,7 +302,6 @@ section#timeline article:nth-child(10) div.inner h2:after {
 .oppenned li { margin-right: 168px; }
 .footer{
   position: relative;
-  height: 5vh;
   background-color: black;
   width: 100%;
   font-size: 20px;
@@ -324,4 +326,7 @@ button{
   .media{
     width: 80%;
   }
+}
+.footer p{
+  margin-bottom: -3px;
 }

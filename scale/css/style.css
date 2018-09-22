@@ -302,9 +302,11 @@ canvas.particles-js-canvas-el {
 }
 h1{
   font-family: Equinox;
+  margin-top: 25px;
 }
 @media all and (max-width: 400px){
   h1{
     font-size: 25px;
+    margin-top: 30px;
   }
 }
