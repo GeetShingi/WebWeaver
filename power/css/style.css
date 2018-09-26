@@ -157,8 +157,8 @@ canvas.particles-js-canvas-el {
 
 .footer{
   position: absolute;
-  top: 96vh;
-  height: 4vh;
+  top: 95vh;
+  height: 5vh;
   background-color: black;
   width: 100%;
   align-items: center;

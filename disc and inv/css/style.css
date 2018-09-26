@@ -330,3 +330,18 @@ button{
 .footer p{
   margin-bottom: -3px;
 }
+@font-face{
+  font-family: Equinox;
+  src:url('../../fonts/Equinox Regular.otf');
+}
+h1{
+  font-family: Equinox;
+  margin-top: 30px;
+  width: 70%;
+}
+@media all and (max-width: 400px){
+  h1{
+    font-size: 25px;
+    margin-top: 30px;
+  }
+}

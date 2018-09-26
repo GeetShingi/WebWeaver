@@ -5,57 +5,31 @@ html, body {
   padding:0; 
   overflow:hidden; 
 }
-body { 
-  background: linear-gradient(180deg, #373773, #235689, #2a9096, #364a7b, #4a367b, #5e3665, #2c294b, #31437a);
-  background-size: 1600% 1600%;
-  -webkit-animation: skygradient 180s ease infinite;
-  -moz-animation: skygradient 180s ease infinite;
-  -o-animation: skygradient 180s ease infinite;
-  animation: skygradient 180s ease infinite;
-}
-@-webkit-keyframes skygradient {
-  0%{background-position:50% 0%}
-  50%{background-position:50% 100%}
-  100%{background-position:50% 0%}
-}
-@-moz-keyframes skygradient {
-  0%{background-position:50% 0%}
-  50%{background-position:50% 100%}
-  100%{background-position:50% 0%}
-}
-@-o-keyframes skygradient {
-  0%{background-position:50% 0%}
-  50%{background-position:50% 100%}
-  100%{background-position:50% 0%}
-}
-@keyframes skygradient { 
-  0%{background-position:50% 0%}
-  50%{background-position:50% 100%}
-  100%{background-position:50% 0%}
-}
-canvas { 
-  width: 100%!important; height: 100%!important; 
-}
+
 .header{
-  position: relative;
-  color:  #00FA9A;
+  position: absolute;
+  color:  yellow;
   top: 20vh;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+
 }
 .header1{
-  position: relative;
+  position: absolute;
   color: white;
-  top: 23vh;
+  top: 35vh;
+  left: 20%;
+  right: 20%;
 }
-@media all and (max-width: 800px){
+/*@media all and (max-width: 800px){
   .header{
-    top: 10vh; 
+    top: 20vh; 
   }
   .header1{
-    top: 20vh;
+    top: 35vh;
   }
-}
-
-
+}*/
 .open {
   position: fixed;
   top: 15px;
