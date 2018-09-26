@@ -21,5 +21,4 @@ Website:Individual pages and features:
 3. Discoveries and Inventions – It briefs about the discoveries and inventions made by Scientists and Astronomers.
 4. Powers of Ten - 
 
-Future improvements:
 
